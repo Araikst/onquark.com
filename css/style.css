@@ -1,0 +1,1709 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main { /* 1 */
+    display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+    margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+    background-color: transparent; /* 1 */
+    -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+    font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+    display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+    border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+    display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+    display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* Clearfix
+   ========================================================================== */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* Layout
+   ========================================================================== */
+.fl-l {
+    float: left;
+}
+.fl-r {
+    float: right;
+}
+.col-3 {
+    width: 33%;
+    padding: 0 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center > svg {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Colors
+   ========================================================================== */
+
+.color-connect {
+    color: #617BE1;
+}
+
+.color-react {
+    color: #A961E1;
+}
+
+.color-answer {
+    color: #50E3C2;
+}
+
+.color-gray {
+    color: #7789a3;
+}
+
+/* General
+   ========================================================================== */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    min-width: 320px;
+}
+body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body.signup {
+    min-height: 490px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #415cff, #0bc8ff);
+    position: relative;
+}
+body.login {
+    min-height: 490px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #415cff, #0bc8ff);
+    position: relative;
+}
+section {
+    width: 100%;
+    margin: 40px 0;
+}
+
+a,
+a:hover,
+a:active,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+input,
+input:hover,
+input:active,
+input:focus{
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    padding: 0 28px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.38px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    font-size: 15px;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.btn svg {
+    margin-left: 7px;
+}
+.btn.btn-white {
+    color: #10bcff;
+    background: #fff;
+}
+.btn.btn-blue {
+    color: #fff;
+    background: #10bcff;
+}
+.btn.btn-puerto {
+    color: #fff;
+    background: #45cab1;
+}
+
+/* Header
+   ========================================================================== */
+
+header {
+    width: 100%;
+    min-height: 647px;
+    background-image: linear-gradient(to bottom, #415cff, #0bc8ff);
+    position: relative;
+    z-index: 0;
+}
+
+header > canvas {
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header-container {
+    width: 1040px;
+    margin: 0 auto;
+    min-height: 500px;
+    height: 100%;
+    overflow: hidden;
+}
+.header-container nav {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+}
+.header-container li.has-dropdown svg {
+    margin-bottom: 1px;
+}
+.header-container nav a.logo img {
+    display: block;
+    padding-top: 12px;
+}
+.header-container nav a.logo {
+    display: block;
+    float: left;
+}
+.header-container nav > ul{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-container nav > ul li {
+    float: left;
+}
+.header-container nav > ul li a {
+    color: #fff;
+    margin: 0 25px;
+    line-height: 50px;
+    letter-spacing: 0.27px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all  0.2s linear;
+    text-shadow: 0 0 1px rgba(0,0,0,0.05);
+}
+.header-container nav > ul li a:hover {
+    opacity: 0.5;
+}
+.header-container nav > ul li:last-child a {
+    padding: 9px 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-right: 0;
+}
+.header-container nav > ul li:last-child a:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content{
+    padding: 75px 20px 0 20px;
+}
+.header-content-left-block {
+    float: left;
+}
+.header-content-left-block > h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: normal;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.2px;
+    margin-top: 59px;
+}
+.header-content-left-block > p{
+    font-size: 17px;
+    color: #fff;
+    width: 500px;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 39px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075)
+}
+.header-content-left-block > a {
+    margin: 0 15px 15px 0;
+}
+.header-content-left-block > a:last-child {
+    display: none;
+}
+.header-content-right-block{
+    float: right;
+}
+.header-bottom-curved{
+    position: absolute;
+    bottom: 0;
+}
+
+/* Main
+   ========================================================================== */
+.main{
+    min-height: 800px;
+    background-image: linear-gradient(to bottom, #f6f7f9, #fefefe);
+}
+.main-container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-container > h1 {
+    color: #14B6FF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: 0.91px;
+}
+
+.main-container > h2 {
+    color: #7789A3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.71px;
+    margin-bottom: 30px;
+}
+
+.p-item p {
+    font-size: 19px;
+    color: #7789A3;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.p-item h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    font-weight: 600;
+    margin: 12px 0 8px 0;
+}
+
+section.inset {
+    background: rgba(244,244,247,0.40);
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.10);
+    border-radius: 6px;
+    color: #7789A3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px 20px;
+}
+
+.signup-container{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    padding: 12px 20px;
+}
+
+.signup-intro{
+    float: left;
+    width: 50%;
+    border-right: solid 1px #e9e9eb;
+}
+
+.signup-intro p{
+    line-height: 76px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7789a3;
+}
+
+.signup-form{
+    float: right;
+    width: 50%;
+}
+
+.signup-form input[type="text"]{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 18px;
+    border-radius: 4px;
+    width: 289px;
+    background: #fff;
+    display: block;
+    float: left;
+    border: 0;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.12);
+    margin-left: 27px;
+    padding-left: 17px;
+}
+
+.signup-form input[type="submit"]{
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #10bcff;
+    border: none;
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-left: -2px;
+    padding: 0;
+    text-transform: uppercase;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.12), 0 0 5px 0 rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+    color: rgba(121, 129, 144, 0.5);
+}
+::-moz-placeholder {
+    font-size: 15px;
+    color: rgba(121, 129, 144, 0.5);
+}
+:-ms-input-placeholder {
+    font-size: 15px;
+    color: rgba(121, 129, 144, 0.5);
+}
+:-moz-placeholder {
+    font-size: 15px;
+    color: rgba(121, 129, 144, 0.5);
+}
+.top-footer-container{
+    background: #f6f7f9;
+    margin-top: -5px;
+    padding-bottom: 20px;
+}
+.top-footer{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.top-footer p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #444A52;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.top-footer p:first-child{
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #1aadff;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.footer-buttons{
+    margin-top: 19px;
+}
+.footer-buttons > a:first-child{
+    margin-right: 20px;
+}
+.footer-blocks-container{
+    background-color: rgba(237, 240, 242, 0.4);
+    box-shadow: 0 -1px 0 0 #e2e3e5;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+.footer-blocks{
+    width: 1040px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.footer-block-item{
+    float: left;
+    width: 25%;
+}
+.footer-block-item h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #10bcff;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-block-item li{
+    padding-bottom: 10px;
+}
+.footer-block-item li a{
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    color: #8898aa;
+}
+.copyright{
+    clear: both;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    color: #8898aa;
+    padding-top: 25px;
+}
+.copyright > a,
+.copyright > a:hover,
+.copyright > a:focus,
+.copyright > a:active {
+    color: #8898aa;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-nav {
+    position: relative;
+    -webkit-transform-style: preserve3d;
+    transform-style: preserve3d;
+    -webkit-perspective: 3000px;
+    perspective: 3000px;
+}
+
+.main-nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.has-dropdown {
+    position: relative;
+}
+.has-dropdown:hover > .sub-menu-shadow {
+    display: block;
+}
+.main-nav > ul .sub-menu-shadow {
+    position: absolute;
+    display: none;
+}
+
+.dropdown-holder {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+}
+.dropdown__bg, .dropdown__arrow {
+    position: absolute;
+}
+.dropdown__arrow {
+    width: 26px;
+    height: 12px;
+    top: -12px;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    pointer-events: none;
+    overflow: hidden;
+}
+.dropdown__bg {
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    z-index: -1;
+}
+.dropdown__bg-bottom {
+    background-color: rgba(240, 243, 247, 0.5);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 276px;
+    height: 700px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+.dropdown__wrap {
+    overflow: hidden;
+    position: absolute;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    z-index: 1;
+}
+.dropdown__wrap .top-section {
+    padding: 20px;
+}
+.dropdown-menu {
+    pointer-events: none;
+}
+.dropdown-menu.active {
+    pointer-events: all;
+}
+.dropdown-menu__content {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    min-width: 280px;
+    padding: 0;
+}
+.dropdown-menu__content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.dropdown-menu__content a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    transition: all 0.25s ease;
+}
+.dropdown-menu__content a:hover {
+    color: #555;
+}
+
+.dropdown-menu__content a > div {
+    -webkit-transition: 0.25s -webkit-filter linear;
+    -moz-transition: 0.25s -moz-filter linear;
+    -moz-transition: 0.25s filter linear;
+    -ms-transition: 0.25s -ms-filter linear;
+    -o-transition: 0.25s -o-filter linear;
+    transition: 0.25s filter linear;
+}
+
+.dropdown-menu__content a:hover > div {
+    filter: contrast(0%) grayscale(5%);
+}
+
+.dropdown-menu.active .dropdown-menu__content {
+    opacity: 1;
+}
+
+.submenu-icon{
+    float: left;
+    margin-right: 20px;
+}
+.submenu-content{
+    float: left;
+    width: 195px;
+}
+
+.submenu-content h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.dropdown-menu__content li {
+    margin-bottom: 15px;
+}
+
+.dropdown-menu__content li:last-child {
+    margin-bottom: 0;
+}
+
+.submenu-content p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.38;
+    color: #7789a3;
+    margin-top: 0;
+}
+
+.dropdown-bottom {
+    padding: 10px 20px;
+}
+
+.dropdown-bottom > a {
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #7789a3;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+/* Signup */
+body.signup > a.logo {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    top: 50%;
+    margin-top: -300px;
+}
+.signup-body {
+    width: 360px;
+    height: 480px;
+    margin: -240px auto 0 auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 12px 20px;
+}
+.signup-body > form > p {
+    text-align: center;
+    color: #5f6061;
+    margin: 10px 0 20px 0;
+}
+.signup-body > form > span {
+    text-align: center;
+    width: 100%;
+    margin: -2px 0 12px 0;
+    display: block;
+    font-size: 14px;
+    color: #7789a3;
+}
+.signup-body > form > span > a,
+.signup-body > form > span > a:hover,
+.signup-body > form > span > a:focus,
+.signup-body > form > span > a:active {
+    color: #10bcff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.signup-body > form > span > a:hover {
+    opacity: 0.5;
+}
+.signup-body > form > input[type="text"],
+.signup-body > form > input[type="password"],
+.signup-body > form > input[type="email"] {
+    display: block;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #dee2e6;
+    line-height: 32px;
+    font-size: 15px;
+    color: #40444a;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.075);
+    padding: 0px 10px;
+    margin-bottom: 14px;
+}
+.signup-body > form > input[type="submit"] {
+    width: 100%;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Login */
+body.login > a.logo {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    top: 50%;
+    margin-top: -200px;
+}
+.login-body {
+    width: 360px;
+    height: 290px;
+    margin: -145px auto 0 auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 12px 20px;
+}
+.login-body > form > p {
+    text-align: center;
+    color: #5f6061;
+    margin: 10px 0 20px 0;
+}
+.login-body > form > label {
+    font-size: 15px;
+    color: #7789a3;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+.login-body > form > span {
+    text-align: center;
+    width: 100%;
+    margin: 12px 0 12px 0;
+    display: block;
+    font-size: 14px;
+}
+.login-body > form > span > a,
+.login-body > form > span > a:hover,
+.login-body > form > span > a:focus,
+.login-body > form > span > a:active {
+    color: #10bcff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.login-body > form > span > a:hover {
+    opacity: 0.5;
+}
+.login-body > form > input[type="text"],
+.login-body > form > input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #dee2e6;
+    line-height: 32px;
+    font-size: 15px;
+    color: #40444a;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.075);
+    padding: 0px 10px;
+    margin-bottom: 14px;
+}
+.login-body > form > input[type="checkbox"] {
+    margin-bottom: 12px;
+    margin-right: 6px;
+}
+.login-body > form > input[type="submit"] {
+    width: 100%;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*===================================== Terms ==============================================*/
+body.terms
+{
+    background-color: #3A404A;
+}
+.terms .header-container  {
+    min-height: 0;
+    overflow: inherit;
+}
+.terms .header-container nav a.logo svg {
+    display: block;
+    margin-top: 15px;
+}
+.terms .content
+{
+    width: 1040px;
+    height: 100%;
+    background: linear-gradient(#f6f7f9, #f9f9fb, #fcfcfd, #fefefe);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    border-radius: 5px;
+}
+.terms .content h1
+{
+    width: 228px;
+    height: 32px;
+    color: #14b6ff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32.0px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 46px;
+    margin-bottom: 0;
+    padding-bottom:80px;
+
+}
+.terms .content p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 100%;
+    margin-bottom: 25px;
+    color: #2C303A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.terms .footer-blocks-container{
+    background:#3A404A;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+/*===================================== Contact ==============================================*/
+.contact {
+    background: linear-gradient(#f7f8fa, #f8f9fa, #fafafb, #fbfcfc, #fdfdfd, #fefefe);
+}
+.contact .header-container nav a.logo svg {
+    display: block;
+    margin-top: 15px;
+
+}
+.contact .header-container nav > ul li a {
+    color: #494949;
+
+}
+.contact .header-container  {
+    min-height: 0;
+    overflow: inherit;
+}
+.contact .content{
+    height:auto;
+    width: 100%;
+    margin-top: 79px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+
+
+}
+.contact .content h1{
+    color:#14B6FF;
+    width: 176px;
+    height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32.0px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 300;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contact .content h2{
+    width: 456px;
+    height: 29px;
+    color: #7789a3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .contact .forms{
+     height:550px;
+     width: 1040px;
+     box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+     margin-left: auto;
+     margin-right:auto;
+     background: #ffffff;
+     border-radius: 5px;
+     border-bottom: 4px;
+     padding: 30px;
+     margin-bottom: 83px;
+     display: block;
+
+
+
+
+ }
+ .contact .footer-blocks-container{
+     background: rgba:(102,0,0,0);
+     box-shadow: 0px -1px 0px #e2e3e5;
+
+
+ }
+
+
+
+
+.contact .content .forms .forms-left {
+    float: left;
+    width: 50%;
+    padding-right: 86px;
+    z-index: 1;
+
+
+}
+
+.contact .content .forms .forms-left textarea{
+
+    border: 1px solid #d7d7d7;
+    width:100%;
+    height: 46px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    margin-top: 5px;
+    display: block;
+    resize: none;
+    box-shadow: none;
+    position: relative;
+
+
+
+}
+
+
+
+.contact .content .forms .forms-left label{
+    width: 109px;
+    height: 23px;
+    color: #7789a3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+.contact .content .forms .forms-right {
+    float: right;
+    width: 50%;
+
+
+}
+
+
+.contact .content .forms .forms-right textarea{
+
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    height: 346px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    resize: none;
+
+
+
+}
+.contact .content .forms .forms-right label{
+
+    width: 109px;
+    height: 23px;
+    color: #7789a3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: left;
+
+
+
+}
+.contact .content .forms .button {
+    display: inline-block;
+    margin-top: 60px;
+    float: right;
+    line-height: 1.3;
+
+
+}
+.contact .content .forms input,
+textarea {
+    outline:none;
+    font-size: 100%;
+    line-height: 1.15;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive
+   ========================================================================== */
+
+@media (max-width: 1040px) {
+    .header-container {
+        width: 100%;
+    }
+
+    .signup-container {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    .top-footer {
+        width: 100%;
+    }
+
+    .footer-blocks {
+        width: 100%;
+    }
+    .terms .content{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .terms .content p {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact .content .forms .forms-left textarea{
+
+
+        width: auto;
+
+
+
+
+}
+
+@media (max-width: 985px) {
+    .signup-container {
+        width: auto;
+        border-radius: 4px;
+        margin: 0 15px;
+    }
+
+    .signup-form {
+        display: none;
+    }
+
+    .signup-intro {
+        width: 100%;
+        border: none;
+    }
+
+    .header-content-left-block > a:last-child {
+        display: inline-block;
+    }
+   /* .contact .content .forms .forms-left input {
+
+        width: 100%;
+        display: inline-block;
+
+    }
+    .contact .content .forms .forms-left label {
+
+        padding-left: 30px;
+        vertical-align: top;
+    }
+    .contact .content .forms .forms-right input{
+       display: inline-block;*/
+}
+
+@media (max-width: 780px) {
+    .footer-block-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .col-3 {
+        padding: 0 15px;
+    }
+
+    .p-item p {
+        display: none;
+    }
+
+    .footer-buttons > a:first-child {
+        display: none;
+    }
+
+    .footer-buttons {
+        text-align: right;
+        margin-top: 19px;
+    }
+
+    .main-container > h1 {
+        font-size: 28px;
+    }
+
+    .main-container > h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    nav.main-nav ul {
+        display: none;
+    }
+
+    .header-content-left-block > p {
+        width: 100%;
+    }
+
+    .header-content {
+        padding: 25px 20px 0 20px;
+    }
+
+    .top-footer .fl-l {
+        width: 100%;
+    }
+
+    .footer-buttons {
+        margin-top: 10px;
+        float: left;
+        text-align: left;
+    }
+
+    .footer-buttons > a:first-child {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .main-container > h1 {
+        font-size: 24px;
+    }
+
+    .main-container > h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        display: none;
+    }
+
+    .header-bottom-curved {
+        display: none;
+    }
+
+    header {
+        box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.2)
+    }
+
+    .header-content {
+        padding: 0px 20px 0 20px;
+    }
+
+    .footer-block-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .col-3 {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .p-item p {
+        display: block;
+    }
+
+    .main-container > h1 {
+        font-size: 20px;
+    }
+
+    .signup-body {
+        width: 320px;
+    }
+
+    .login-body {
+        width: 320px;
+    }
+}
